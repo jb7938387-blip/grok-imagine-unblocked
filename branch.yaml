@@ -1,0 +1,13 @@
+# Optional branch / deploy config
+# Use this if your host asks for a branch.yaml or similar
+
+branch: main
+
+deploy:
+  build: npm install
+  start: npm start
+  port: 3001
+  node: ">=18"
+
+environment:
+  NODE_ENV: production
